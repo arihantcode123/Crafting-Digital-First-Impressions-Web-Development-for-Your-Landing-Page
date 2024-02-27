@@ -1,0 +1,84 @@
+body{
+    background-color:hsl(0, 0%, 8%) ;
+}
+.loginParentDiv{
+    background-color: hsl(0, 0%, 12%);
+    position:absolute;
+    left:50%;
+    top:50%;
+    transform: translate(-50%,-50%);
+    height:70%;
+    width:23%;
+    border-radius: 10px;
+}
+#image{
+    border-radius: 50%;
+    position: inherit;
+    top:15%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+#name{
+    color:hsl(0, 0%, 100%);
+    font-weight: 400;
+    font-family: "Inter", sans-serif;
+    position: inherit;
+    top: 25%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+#address{
+    color:hsl(75, 94%, 57%);
+    font-size: 12px;
+    font-weight: 600;
+    font-family: "Inter", sans-serif;
+    position: inherit;
+    top: 30%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+#description{
+    color:hsl(0, 0%, 100%);
+    font-size:12px;
+    /* text-align:full; */
+    /* margin-inline-start:-10px; */
+    margin-inline-end: -30px;
+    text-align: center;
+    position: inherit;
+    top: 37%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+.socialLinkSection{
+    height: 270px;
+    position: inherit;
+    top: 69%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    /* border:2px solid white; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap:17px;
+}
+#socialLinks{
+    color: hsl(0, 0%, 100%);
+    font-family: "Inter", sans-serif;
+    background-color: hsl(0, 0%, 20%);
+    height:40px;
+    width:250px;
+    border-radius: 5px;
+    font-size:13px;
+    text-align: center;
+    vertical-align: middle;
+    line-height:40px;
+}
+#socialLinks:hover{
+    background-color:hsl(75, 94%, 57%);
+    color:hsl(0, 0%, 8%);
+}
+a{
+    text-decoration: none;
+
+}
